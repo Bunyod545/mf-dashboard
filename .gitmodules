@@ -1,0 +1,3 @@
+[submodule "libs/mf-core"]
+	path = libs/mf-core
+	url = https://github.com/Bunyod545/mf-core.git
