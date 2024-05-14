@@ -11,7 +11,8 @@ sharedMappings.register(
 module.exports = {
   output: {
     uniqueName: "mf-dashboard",
-    publicPath: "auto"
+    publicPath: "auto",
+    scriptType: 'text/javascript'
   },
   optimization: {
     runtimeChunk: false
@@ -31,7 +32,7 @@ module.exports = {
         name: "mf-dashboard",
         filename: "remote-dashboard-entry.js",
         exposes: {
-            './Component': './/src/app/app.component.ts',
+            './Module': './/src/app/app.module.ts',
         },        
         
         // For hosts (please adjust)
