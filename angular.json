@@ -23,8 +23,9 @@
 							"src/favicon.ico",
 							"src/assets"
 						],
-						"styles": [
-							"src/styles.css"
+						"styles": [ 
+							"src/styles.css",
+							"libs/mf-core/styles/core.css",
 						],
 						"scripts": [],
 						"main": "src/main.ts",

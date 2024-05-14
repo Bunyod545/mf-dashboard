@@ -32,7 +32,7 @@ module.exports = {
         name: "mf-dashboard",
         filename: "remote-dashboard-entry.js",
         exposes: {
-            './Module': './/src/app/app.module.ts',
+            './Module': './/src/app/shared.module.ts',
         },        
         
         // For hosts (please adjust)
